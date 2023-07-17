@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-onetable-error",
+  "version": "1.0.0",
+  "description": "To reproduce type issue on dynamodb onetable error",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dynamodb-onetable": "^2.6.3"
+  },
+  "files": [
+    "dist/"
+  ]
+}

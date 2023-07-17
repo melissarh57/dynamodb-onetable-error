@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ES2020",
+    "declaration": true,
+    "lib": ["es2020"],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "resolveJsonModule": true
+  },
+  "include": ["./*.ts"],
+  "exclude": [
+    "node_modules/**/*",
+  ]
+}
